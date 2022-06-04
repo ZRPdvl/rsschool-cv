@@ -1,23 +1,23 @@
 rsschool-cv
-#Roman Zabolotnuy
+# Roman Zabolotnuy
 
-#Contact:
-    -Phone: +972558205305;
-    -E-mail: {zrp.dvl@gmail.com}
-    -GitHub: {https://github.com/ZRPdvl}
-    -Linkedin: {https://www.linkedin.com/in/roman-zabolotnyi-231a49216/}
+# Contact:
+- Phone: +972558205305;
+- E-mail: {zrp.dvl@gmail.com}
+- GitHub: {https://github.com/ZRPdvl}
+- Linkedin: {https://www.linkedin.com/in/roman-zabolotnyi-231a49216/}
 
-#About Me:
+# About Me:
 <p>I want to learn Front-End Development in RSSchool!</p>
 
-#Skills:
-    -HTML;
-    -CSS;
-    -Bootstrap, SASS/SCSS, BEM
-    -JS;
-    -Figma, Photoshop;
-    -Git, GitHub;
-#Code example:
+# Skills:
+- HTML;
+- CSS;
+- Bootstrap, SASS/SCSS, BEM
+- JS;
+- Figma, Photoshop;
+- Git, GitHub;
+# Code example:
 ```
 const btnNumber = document.querySelectorAll(".header__number--btn");
 
@@ -30,11 +30,11 @@ btnNumber.forEach(element => {
     })
 });
 ```
-##Courses:
-    -GoIT
-    -Vladilen Minin 
+## Courses:
+- GoIT
+- Vladilen Minin 
 
-##Languages:
-    -English A2.
-    -Ukrainian native speaker.
-    -Polish Intermediate.
+## Languages:
+- English A2.
+- Ukrainian native speaker.
+- Polish Intermediate.
