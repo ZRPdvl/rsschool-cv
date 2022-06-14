@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <ul class="header__lists">
+                    <li class="header__list"><a href="#header">Home</a></li>
+                    <li class="header__list"><a href="#about">About</a></li>
+                    <li class="header__list"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="tittel">
+                <div class="tittel__item">
+                    <div class="foto"><img src="./img/1._Чортків_Костел_Св.Станіслава11.jpg" alt="logo"></div>
+                    <h1>Roman Zabolotnuy</h1>
+                </div>
+
+            </section>
+            <section id="about" class="about">
+                <h2 class="tittel">About Me:</h2>
+                <p>I want to learn Front-End Development in RSSchool!</p>
+            </section>
+            <section class="skills">
+                <h2 class="tittel">Skills:</h2>
+                <ul class="lists">
+                    <li>HTML;</li>
+                    <li>CSS;</li>
+                    <li>Bootstrap, SASS/SCSS, BEM</li>
+                    <li>JS;</li>
+                    <li>Figma, Photoshop;</li>
+                    <li>Git, GitHub;</li>
+                </ul>
+            </section>
+            <section class="code">
+                <h2 class="tittel">Code example:</h2>
+                <code>const btnNumber = document.querySelectorAll(".header__number--btn"); <br>
+
+                        btnNumber.forEach(element => {<br>
+                            element.addEventListener('click' , ()=>{<br>
+                                btnNumber.forEach(element => {<br>
+                                    element.classList.remove('header__number--btn--active') <br>
+                                });<br>
+                            element.classList.add("header__number--btn--active") <br>
+                            })
+                        });</code>
+
+            </section>
+            <section class="course">
+                <h2 class="tittel">Courses:</h2>
+                <ul class="lists">
+                    <li>GoIT</li>
+                    <li>Vladilen Minin </li>
+                </ul>
+            </section>
+            <section class="languages">
+                <h2 class="tittel">Languages:</h2>
+                <ul class="lists">
+                    <li>English A2.</li>
+                    <li>Ukrainian native speaker.</li>
+                    <li>Polish Intermediate.</li>
+                </ul>
+            </section>
+            <section id="contact" class="contact">
+                <h2 class="tittel">Contact:</h2>
+                <ul class="contact__lists lists">
+                    <li>Phone: <a class="contact__link" href="">+972558205305</a></li>
+                    <li>E-mail: <a class="contact__link" href="">zrp.dvl@gmail.com</a></li>
+                    <li>Phone: <a class="contact__link" href="https://github.com/ZRPdvl">https://github.com/ZRPdvl</a>
+                    </li>
+                    <li>Linkedin: <a class="contact__link"
+                            href="https://www.linkedin.com/in/roman-zabolotnyi-231a49216/">https://www.linkedin.com</a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__item">
+                <p class="footer__date">2022</p>
+                <a class="footer__link" href="https://github.com/ZRPdvl">ZRPdvl</a>
+                <a class="footer__logo" href="https://rs.school/js/"><img src="./img/rs_school_js.svg"
+                        alt="footer logo"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
